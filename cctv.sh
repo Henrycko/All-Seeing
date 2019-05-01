@@ -1,15 +1,5 @@
 #!/bin/bash
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
-#////                       _            _  __                              ////
-#////                      | |          (_)/ _|                             ////
-#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
-#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
-#////                   / /| | |_| | (__| | ||  __/ |                       ////
-#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
-#////                                                                       ////
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
+
 eye(){
     echo "   ..  ...  ...  ...  ..      .          ..  ....."
     sleep 0.03
@@ -62,7 +52,7 @@ load(){
 
 #
 clear
-echo "Memulai Eye of All Seeing Project.."
+echo "Memulai Eye of All Seeing Project!..."
 load
 clear
 echo Selamat datang kak, Siapa nick kaka? #tulisan keluar
@@ -82,7 +72,7 @@ read jawab
 echo 
 echo "NGAKAK DASAR JONES !!! :p"
 echo 
-echo "Mulai scanning cctv?"
+echo "Mulai scanning CCTV?"
 echo "y/n"
 read confirm
 if [ $confirm = "y" ]; then
@@ -95,7 +85,7 @@ if [ $confirm = "y" ]; then
     echo " Gunakan tools dengan bijak"
     echo
     echo " Love u always "
-    echo " -zLucifer"
+    echo " -Henrycko"
     echo "======================================="
 else
     echo "Kesalahan"
