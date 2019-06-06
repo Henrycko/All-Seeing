@@ -1,5 +1,4 @@
 #!/bin/bash
-
 eye(){
     echo "   ..  ...  ...  ...  ..      .          ..  ....."
     sleep 0.03
@@ -52,7 +51,7 @@ load(){
 
 #
 clear
-echo "Memulai Eye of All Seeing Project!..."
+echo "Memulai Eye of All Seeing Project.."
 load
 clear
 echo Selamat datang kak, Siapa nick kaka? #tulisan keluar
@@ -77,12 +76,12 @@ echo "y/n"
 read confirm
 if [ $confirm = "y" ]; then
     clear
-    echo "Melakukan scanning"
+    echo "Melakukan scanning..."
     load
     clear
     eye
     curl -s http://zlucifer.hol.es/Project_eye_of_all_seeing/index.php
-    echo " Gunakan tools dengan bijak"
+    echo " Gunakan tools dengan bijak!"
     echo
     echo " Love u always "
     echo " -Henrycko"
